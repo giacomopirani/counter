@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background: linear-gradient(to right, #1a9498, #34afad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer {
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  padding: 50px 80px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+h1 {
+  margin: 15px;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.controls button {
+  margin: 20px;
+  padding: 40px 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: rgb(0, 0, 134);
+  color: white;
+  border: 1px solid white;
+}
+
+#reset-button {
+  background-color: brown;
+}
+
+#reset-button:hover {
+  background-color: rgb(236, 0, 0);
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
+
+#start-button:hover,
+#stop-button:hover {
+  background-color: blue;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
