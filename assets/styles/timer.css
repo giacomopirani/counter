@@ -17,10 +17,11 @@ body {
 
 .timer {
   background-color: rgba(0, 0, 0, 0.75);
+
   text-align: center;
   font-size: 70px;
   font-weight: 600;
-  padding: 50px 80px;
+  padding: 50px 50px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
