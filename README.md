@@ -26,8 +26,10 @@ Final project of the course on JavaScript Basics of Start2Impact University.
 
 ## Extra
 
-At the top right is a link to another application called Timer
+_At the top right is a link to another application called Timer_
 
 ![home-counter](/assets/img/home-timer.png)
 
-## Link
+# Link
+
+# [Watch Counter](https://giacomopiranidev-counter.netlify.app/)
